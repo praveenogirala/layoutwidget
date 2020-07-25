@@ -52,6 +52,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
+            "baseHref": "/layoutwidget/",
             "outputPath": "dist/layout-app",
             "index": "projects/layout-app/src/index.html",
             "main": "projects/layout-app/src/main.ts",
