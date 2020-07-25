@@ -1,0 +1,13 @@
+{
+  "name": "@praveenogirala/layout",
+  "version": "0.0.1",
+  "peerDependencies": {
+    "@angular/common": "^8.2.7",
+    "@angular/core": "^8.2.7",
+    "@angular/material": "^8.2.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/praveenogirala/angular-layoutwidget.git"
+}
+}

@@ -1,0 +1,53 @@
+mat-toolbar {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 10;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,.3);
+}
+
+
+sidenav-container {
+    min-height: 100%;
+    margin: 0;
+    height: auto !important;
+    transform: none;
+}
+
+mat-sidenav {
+    position: fixed;
+    width: 200px;
+    height: 100%;
+    top: 64px;
+    bottom: 0;
+    left: 0;
+    padding: 0;
+}
+
+mat-sidenav-content{
+    min-height: 100vh;
+    padding: 80px 3rem 2rem;
+}
+
+mat-drawer-content{
+    position: relative;
+    z-index: 1;
+    display: block;
+    height: 100%;
+    overflow: auto;
+}
+
+.example-spacer {
+    flex: 1 1 auto;
+}
+
+.search-container {
+    min-width: 750px;
+}
+
+.search-box {
+    height: 100%;
+    width: 100%;
+    
+}
